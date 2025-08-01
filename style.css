@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f4f0ec;
+    color: #4b3c5c;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #6b5b95;
+}
+
+.intro {
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #d6cadd;
+    color: #4b3c5c;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c9b6d1;
+}
+
+.level {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 1px solid #d9cce3;
+}
+
+.hidden {
+    display: none;
+}
+
+video {
+    margin-top: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.final-msg {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
